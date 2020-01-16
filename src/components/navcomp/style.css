@@ -1,0 +1,13 @@
+.w3-animate-left {
+  color: white;
+  text-decoration: none;
+  font-weight: bold
+}
+
+.active {
+  /* font-weight: bold;
+  transition: font-weight .25s */
+  text-shadow: 0 0 20px #fff;
+  transition: text-shadow .4s
+
+}
