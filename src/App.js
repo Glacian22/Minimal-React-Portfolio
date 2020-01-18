@@ -7,6 +7,7 @@ import Portfolio from './components/views/portfolio/portfolio'
 import Tech from './components/views/tech/tech'
 import Contact from './components/views/contact/contact'
 import Footer from './components/footer/footer'
+import Content from './components/content/content'
 import './App.css'
 
 function App () {
@@ -19,13 +20,15 @@ function App () {
           <NavComp destination='tech' />
           <NavComp destination='contact' />
         </Nav>
-        <Switch>
-          <Route path='/about' exact render={About} />
-          <Route path='/portfolio' exact render={Portfolio} />
-          <Route path='/tech' exact render={Tech} />
-          <Route path='/contact' exact render={Contact} />
-          <Redirect to='/about' />
-        </Switch>
+        <Content>
+          <Switch>
+            <Route path='/about' exact render={About} />
+            <Route path='/portfolio' exact render={Portfolio} />
+            <Route path='/tech' exact render={Tech} />
+            <Route path='/contact' exact render={Contact} />
+            <Redirect to='/about' />
+          </Switch>
+        </Content>
       </div>
       <Footer />
     </BrowserRouter>

@@ -1,10 +1,13 @@
 #foot {
-  margin: 0 5vw 0 5vw;
   align-content: center;
-  position: relative;
-  width: 100vw;
+  width: 30vw;
   display: inline-grid;
-  grid-template-columns: 5vw 80vw 5vw
+  grid-template-columns: 55px auto 55px
+}
+
+#foot-wrap {
+  margin: auto;
+  width: 30vw
 }
 
 .ind-icon {

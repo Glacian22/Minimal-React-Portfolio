@@ -29,12 +29,14 @@ export default function Footer (props) {
   useEffect(() => {
     setTimeout(() => {
       loadLinks(arr)
-    }, 500)
+    }, 200)
   }, [])
 
   return (
-    <div id='foot'>
-      {elements}
+    <div id='foot-wrap'>
+      <div id='foot'>
+        {elements}
+      </div>
     </div>
   )
 }
