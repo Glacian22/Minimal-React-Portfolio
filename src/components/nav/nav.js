@@ -16,9 +16,11 @@ function Nav (props) {
   }, [props.children])
 
   return (
-    <nav className='nav'>
-      {elements}
-    </nav>
+    <div id='nav-wrap'>
+      <nav className='nav'>
+        {elements}
+      </nav>
+    </div>
   )
 }
 

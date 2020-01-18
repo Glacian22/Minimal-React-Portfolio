@@ -1,13 +1,13 @@
 #foot {
   align-content: center;
-  width: 30vw;
+  width: 200px;
   display: inline-grid;
   grid-template-columns: 55px auto 55px
 }
 
 #foot-wrap {
   margin: auto;
-  width: 30vw
+  width: 200px
 }
 
 .ind-icon {
