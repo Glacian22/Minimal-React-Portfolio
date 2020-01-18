@@ -3,7 +3,7 @@ import './style.css'
 
 export default function Portfolio (props) {
   return (
-    <div>
+    <div className='content' id='portfolio'>
       Hi, this is the portfolio page
     </div>
   )

@@ -1,11 +1,12 @@
 import React from 'react'
 import Nav from './components/nav/nav'
 import NavComp from './components/navcomp/navcomp'
-import { BrowserRouter, Route, Link, Switch, Redirect } from 'react-router-dom'
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 import About from './components/views/about/about'
 import Portfolio from './components/views/portfolio/portfolio'
 import Tech from './components/views/tech/tech'
 import Contact from './components/views/contact/contact'
+import Footer from './components/footer/footer'
 import './App.css'
 
 function App () {
@@ -26,8 +27,8 @@ function App () {
           <Redirect to='/about' />
         </Switch>
       </div>
+      <Footer />
     </BrowserRouter>
-
   )
 }
 

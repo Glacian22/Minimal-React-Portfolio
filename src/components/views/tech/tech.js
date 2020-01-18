@@ -3,7 +3,7 @@ import './style.css'
 
 export default function Tech (props) {
   return (
-    <div>
+    <div className='content' id='tech'>
       Hi, this is the tech page
     </div>
   )

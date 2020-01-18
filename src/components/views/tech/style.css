@@ -1,0 +1,8 @@
+#tech {
+  position:relative;
+  animation:animatetech 0.4s
+}
+  @keyframes animatetech{
+  from{right:-300px;opacity:0} 
+  to{right:0;opacity:1}
+}

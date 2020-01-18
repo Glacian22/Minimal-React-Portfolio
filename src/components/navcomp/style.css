@@ -1,13 +1,19 @@
 .w3-animate-left {
   color: white;
   text-decoration: none;
-  font-weight: bold
+  font-weight: bold;
+}
+
+.w3-animate-left:hover {
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.65);
+  transition: text-shadow .4s
 }
 
 .active {
-  /* font-weight: bold;
-  transition: font-weight .25s */
+  text-shadow: 0 0 20px #fff;
+  transition: text-shadow .1s
+}
+.active:hover {
   text-shadow: 0 0 20px #fff;
   transition: text-shadow .4s
-
 }

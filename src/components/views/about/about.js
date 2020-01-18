@@ -3,7 +3,7 @@ import './style.css'
 
 export default function About (props) {
   return (
-    <div>
+    <div className='content' id='about'>
       Hi, this is the about page
     </div>
   )

@@ -1,0 +1,22 @@
+#foot {
+  margin: 0 5vw 0 5vw;
+  align-content: center;
+  position: relative;
+  width: 100vw;
+  display: inline-grid;
+  grid-template-columns: 5vw 80vw 5vw
+}
+
+.ind-icon {
+  display: block;
+  margin: auto;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  filter: invert(1);
+  transition: .4s;
+}
+
+.ind-icon:hover {
+  box-shadow: inset 0 0 25px black, 0 0 15px rgba(0, 0, 0, .75)
+}

@@ -1,7 +1,11 @@
 .App {
   text-align: center;
   width: 75%;
-  height: 100vh;
+  height: 80vh;
   margin: auto;
   margin-top: 10vh
+}
+
+.content {
+  margin-top: 20vh;
 }

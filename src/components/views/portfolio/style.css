@@ -1,0 +1,8 @@
+#portfolio {
+  position:relative;
+  animation:animateportfolio 0.4s
+}
+  @keyframes animateportfolio{
+  from{right:-300px;opacity:0} 
+  to{right:0;opacity:1}
+}
