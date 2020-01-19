@@ -42,8 +42,10 @@ export default function Tech (props) {
           <h3>Assorted</h3>
           <ul>
             <li>RESTful APIs</li>
-            <li>Mocha/Chai</li>
-            <li>Socket.io</li>
+            <li>OOP</li>
+            <li>TDD</li>
+            <li>Agile Development</li>
+            <li>Realtime Communication</li>
           </ul>
         </div>
       </Carousel>

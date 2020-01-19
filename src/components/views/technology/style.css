@@ -15,7 +15,6 @@
 }
 
 ul {
-  /* list-style: none; */
   text-align: left
 }
 
@@ -27,7 +26,7 @@ ul {
   padding-left: 0
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 780px) {
   #tech {
     width: 90%;
   }
@@ -36,12 +35,15 @@ ul {
   }
 }
 
-@media only screen and (max-height: 400px) {
+@media only screen and (max-height: 780px) {
   #tech {
     width: 90%;
   }
   .slide {
-    height: 150px;
+    height: 250px;
     width: 400px;
+  }
+  .control-dots {
+    display: none
   }
 }
