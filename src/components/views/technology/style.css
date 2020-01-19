@@ -35,3 +35,13 @@ ul {
     height: 300px;
   }
 }
+
+@media only screen and (max-height: 400px) {
+  #tech {
+    width: 90%;
+  }
+  .slide {
+    height: 150px;
+    width: 400px;
+  }
+}
