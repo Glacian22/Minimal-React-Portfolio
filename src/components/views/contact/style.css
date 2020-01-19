@@ -3,6 +3,6 @@
   animation:animatecontact 0.4s
 }
   @keyframes animatecontact{
-  from{right:-300px;opacity:0} 
-  to{right:0;opacity:1}
+  from{opacity:0} 
+  to{opacity:1}
 }

@@ -7,9 +7,9 @@ export default function Tech (props) {
   return (
     <div className='content' id='tech'>
       <p>Some of the technologies I use:</p>
-      <div id='lists'>
+      <Carousel showThumbs={false} showStatus={false} infiniteLoop>
         <div>
-          <h4>>Front-End</h4>
+          <h3>Front-End</h3>
           <ul>
             <li>Javascript ES6+</li>
             <li>React</li>
@@ -20,29 +20,30 @@ export default function Tech (props) {
           </ul>
         </div>
         <div>
-          <h4>>Back-End</h4>
+          <h3>Back-End</h3>
           <ul>
             <li>Node</li>
             <li>Express</li>
           </ul>
         </div>
         <div>
-          <h4>>Databases</h4>
+          <h3>Databases</h3>
           <ul>
             <li>MongoDB</li>
             <li>MySQL</li>
             <li>Firebase</li>
+            <li>Redis</li>
           </ul>
         </div>
         <div>
-          <h4>>Assorted</h4>
+          <h3>Assorted</h3>
           <ul>
             <li>RESTful APIs</li>
             <li>Mocha/Chai</li>
             <li>Socket.io</li>
           </ul>
         </div>
-      </div>
+      </Carousel>
     </div>
   )
 }

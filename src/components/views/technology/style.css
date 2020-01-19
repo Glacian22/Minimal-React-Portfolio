@@ -1,21 +1,19 @@
 #tech {
-  width: 80vw;
+  width: 400px;
   margin-left: auto;
   margin-right: auto;
-  position:relative;
   text-align: center;
-  animation:animatetech 0.4s
-}
-  @keyframes animatetech{
-  from{right:-300px;opacity:0} 
-  to{right:0;opacity:1}
+  transition: .4s;
+  animation:animateportfolio 0.4s
 }
 
-#lists {
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 30px;
-  display: inline-grid;
-  text-align: left;
+@keyframes animateportfolio{
+  from{opacity:0} 
+  to{opacity:1}
+}
+ 
+.slide {
+  height: 400px;
 }
 
 ul {
