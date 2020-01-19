@@ -1,6 +1,6 @@
 #contact {
   position:relative;
-  animation:animatecontact 0.4s
+  animation:animatecontact 1s
 }
   @keyframes animatecontact{
   from{opacity:0} 

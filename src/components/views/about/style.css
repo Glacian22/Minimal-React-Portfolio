@@ -3,7 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   position:relative;
-  animation:animateabout 0.4s
+  animation:animateabout 1s
 }
   @keyframes animateabout{
   from{opacity:0} 
