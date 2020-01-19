@@ -1,5 +1,12 @@
 .content {
   text-align: left;
   width: 90vw;
-  margin: auto
+  margin: auto;
+  margin-top: 20vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    margin-top: 15vh
+  }
 }
