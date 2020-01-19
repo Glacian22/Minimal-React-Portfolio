@@ -1,10 +1,12 @@
 import React from 'react'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import { Carousel } from 'react-responsive-carousel'
 import './style.css'
 
 export default function Tech (props) {
   return (
     <div className='content' id='tech'>
-      <p>Some of the technologies I've used to build full-stack applications:</p>
+      <p>Some of the technologies I use:</p>
       <div id='lists'>
         <div>
           <h4>>Front-End</h4>
