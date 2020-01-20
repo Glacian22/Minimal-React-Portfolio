@@ -1,21 +1,30 @@
 #tech {
-  width: 30%;
+  width: 50%;
   text-align: center;
   transition: .6s;
-  animation:animateportfolio 1.4s
+  animation:animatetech 1.4s
 }
 
-@keyframes animateportfolio{
+@keyframes animatetech{
   from{opacity:0} 
   to{opacity:1}
 }
- 
+
+.lists {
+  margin: 40px auto 0 auto
+}
+
+.lists h3 {
+  margin-bottom: 40px
+} 
+
 .slide {
   height: 400px;
 }
 
 ul {
-  text-align: left
+  text-align: left;
+  margin-left: 25%
 }
 
 .lists li {
@@ -32,6 +41,9 @@ ul {
   }
   .slide {
     height: 300px;
+  }
+  ul {
+    margin: 10%
   }
 }
 
