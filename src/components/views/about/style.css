@@ -13,3 +13,10 @@
 .about-headers {
   font-weight: bold;
 }
+
+@media only screen and (max-width: 780px) {
+  #about {
+    width: 80vw;
+    /* margin-top: 0vh */
+  }
+}
