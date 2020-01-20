@@ -9,6 +9,10 @@
   to{opacity:1}
 }
 
+#boom {
+  text-overflow: visible;
+}
+
 .folioCard div{
   width: 400px;
   margin: auto
