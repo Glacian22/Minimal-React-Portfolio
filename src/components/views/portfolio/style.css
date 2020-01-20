@@ -13,6 +13,14 @@
   text-decoration: none !important
 }
 
+#portfolio a p{
+  text-align: left;
+}
+
+.card-title {
+  text-align: center
+}
+
 .folioCard div{
   width: 400px;
   margin: auto
