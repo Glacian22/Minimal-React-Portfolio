@@ -32,7 +32,7 @@ ul {
 }
 
 .control-dots {
-  padding-left: 0
+  display: none
 }
 
 @media only screen and (max-width: 780px) {
@@ -54,8 +54,5 @@ ul {
   .slide {
     height: 250px;
     width: 400px;
-  }
-  .control-dots {
-    display: none
   }
 }

@@ -1,13 +1,14 @@
 .content {
   text-align: left;
-  width: 90vw;
+  width: 75vw;
   margin: auto;
   margin-top: 20vh;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 780px) {
   .content {
-    margin-top: 15vh
+    margin-top: 15vh;
+    width: auto
   }
 }
 

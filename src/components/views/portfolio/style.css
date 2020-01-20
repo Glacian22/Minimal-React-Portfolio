@@ -1,8 +1,23 @@
 #portfolio {
+  width: 500px;
   position:relative;
   animation:animatefolio 1s
 }
   @keyframes animatefolio{
   from{opacity:0} 
   to{opacity:1}
+}
+
+.folioCard div{
+  width: 400px;
+  margin: auto
+}
+
+@media only screen and (max-width: 780px) {
+  #portfolio {
+    width: auto
+  }
+  .folioCard div{
+    width: 250px;
+  }
 }
