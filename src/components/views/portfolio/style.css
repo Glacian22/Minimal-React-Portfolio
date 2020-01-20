@@ -1,6 +1,7 @@
 #portfolio {
   width: 500px;
   position:relative;
+  text-align: center;
   animation:animatefolio 1s
 }
   @keyframes animatefolio{
