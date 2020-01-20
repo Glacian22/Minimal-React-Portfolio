@@ -18,7 +18,7 @@ export default function Portfolio (props) {
         <a className='folioCard' href='https://github.com/aprilleperez/realgameoflife_client' target='blank'>
           <div>
             <img src={inTheirShoesFront} alt='In Their Shoes React' />
-            <div class='card-title'>In Their Shoes client</div>
+            <div className='card-title'>In Their Shoes client</div>
             <p id='boom'>Group training tool for non-profits.
                Uses React for UI, with sockets for realtime communication with the server.</p>
           </div>
@@ -26,7 +26,7 @@ export default function Portfolio (props) {
         <a className='folioCard' href='https://github.com/cplank/LifeAPI' target='blank'>
           <div>
             <img src={inTheirShoesBack} alt='In Their Shoes Server' />
-            <div class='card-title'>In Their Shoes Server</div>
+            <div className='card-title'>In Their Shoes Server</div>
             <p>The backend for this app was built with Node, Express, sockets, and uses MongoDB to store
               scenario templates and user info.
             </p>
@@ -35,7 +35,7 @@ export default function Portfolio (props) {
         <Link className='folioCard' to='about'>
           <div>
             <img src={thisPortfolio} alt='this site' />
-            <div class='card-title'>This Portfolio</div>
+            <div className='card-title'>This Portfolio</div>
             <p> This portfolio site was designed and built by me, using React with custom components
               and leveraging CSS3 grid.
             </p>
@@ -44,7 +44,7 @@ export default function Portfolio (props) {
         <a className='folioCard' href='https://github.com/yomyyo/yelling-game' target='blank'>
           <div>
             <img src={blobber} alt='Blobber Royale' />
-            <div class='card-title'>Blobber Royale</div>
+            <div className='card-title'>Blobber Royale</div>
             <p>Blobber Royale - full stack networked game built on sockets and MS Azure realtime speech recognition API
               <br />
                The code for this game is rough around the edges, and is being completely reworked for mobile deployment.
@@ -54,7 +54,7 @@ export default function Portfolio (props) {
         <a className='folioCard' href='https://github.com/Glacian22/React-Tutorial' target='blank'>
           <div>
             <img src={squares} alt='React Tutorial' />
-            <div class='card-title'>React Tutorial</div>
+            <div className='card-title'>React Tutorial</div>
             <p>A demo of React concepts I built as a tutorial for my coding bootcamp students.
               <br />
               Designed to show how to structure a React app, use props, state, hooks, and the usefulness of nesting components as children.
@@ -64,7 +64,7 @@ export default function Portfolio (props) {
         <a className='folioCard' href='https://github.com/QuantumPhilosophy/anonymous-pumpkin' target='blank'>
           <div>
             <img src={watDis} alt='Wat Dis' />
-            <div class='card-title'>Wat Dis</div>
+            <div className='card-title'>Wat Dis</div>
             <p> Wat Dis?
               <br />
               Wat Dis? - frontend web app for identifying and elaborating on the contents of
