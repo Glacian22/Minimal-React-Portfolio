@@ -9,7 +9,6 @@ export default function Contact (props) {
 
   let handleSubmit = event => {
     event.preventDefault()
-    console.log('hi')
     console.log(event.target['name'].value)
   }
 
