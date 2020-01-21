@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Minimal-React-Portfolio/static/css/main.11e79684.chunk.css",
+    "main.css": "/Minimal-React-Portfolio/static/css/main.c32e1571.chunk.css",
     "main.js": "/Minimal-React-Portfolio/static/js/main.342af196.chunk.js",
     "main.js.map": "/Minimal-React-Portfolio/static/js/main.342af196.chunk.js.map",
     "runtime-main.js": "/Minimal-React-Portfolio/static/js/runtime-main.00f3691c.js",
@@ -9,10 +9,10 @@
     "static/js/2.e45687f4.chunk.js": "/Minimal-React-Portfolio/static/js/2.e45687f4.chunk.js",
     "static/js/2.e45687f4.chunk.js.map": "/Minimal-React-Portfolio/static/js/2.e45687f4.chunk.js.map",
     "index.html": "/Minimal-React-Portfolio/index.html",
-    "precache-manifest.b4eaf5bd025fdfa0d1e2327f0194b83c.js": "/Minimal-React-Portfolio/precache-manifest.b4eaf5bd025fdfa0d1e2327f0194b83c.js",
+    "precache-manifest.9ad276ac510e2f78adefb334f5eb0e36.js": "/Minimal-React-Portfolio/precache-manifest.9ad276ac510e2f78adefb334f5eb0e36.js",
     "service-worker.js": "/Minimal-React-Portfolio/service-worker.js",
     "static/css/2.3c1ddb0a.chunk.css.map": "/Minimal-React-Portfolio/static/css/2.3c1ddb0a.chunk.css.map",
-    "static/css/main.11e79684.chunk.css.map": "/Minimal-React-Portfolio/static/css/main.11e79684.chunk.css.map",
+    "static/css/main.c32e1571.chunk.css.map": "/Minimal-React-Portfolio/static/css/main.c32e1571.chunk.css.map",
     "static/js/2.e45687f4.chunk.js.LICENSE": "/Minimal-React-Portfolio/static/js/2.e45687f4.chunk.js.LICENSE",
     "static/media/WatDis.png": "/Minimal-React-Portfolio/static/media/WatDis.172901b2.png",
     "static/media/blobber.jpg": "/Minimal-React-Portfolio/static/media/blobber.6c5cf54b.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.00f3691c.js",
     "static/css/2.3c1ddb0a.chunk.css",
     "static/js/2.e45687f4.chunk.js",
-    "static/css/main.11e79684.chunk.css",
+    "static/css/main.c32e1571.chunk.css",
     "static/js/main.342af196.chunk.js"
   ]
 }
