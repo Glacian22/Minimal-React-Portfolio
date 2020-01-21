@@ -23,6 +23,7 @@ export default function Contact (props) {
 
   return (
     <div id='contact'>
+      contact area
       <form id='contact-form' onSubmit={handleSubmit}>
         <label>
           Contact
