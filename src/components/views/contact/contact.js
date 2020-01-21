@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import mailer from 'nodemailer'
 import './style.css'
 
 export default function Contact (props) {
@@ -13,7 +14,6 @@ export default function Contact (props) {
 
   return (
     <div id='contact'>
-      contact
       <form id='contact-form' onSubmit={handleSubmit}>
         <label>
           Contact
