@@ -5,6 +5,7 @@ export default function About (props) {
   return (
     <div className='content' id='about'>
       <div>
+        <p><bdi className='about-headers'>Name:</bdi> Abram Thau</p>
         <p><bdi className='about-headers'>Species:</bdi> Human</p>
         <p><bdi className='about-headers'>Occupation:</bdi> Software Developer</p>
         <p><bdi className='about-headers'>Disposition:</bdi> Curious/Hungry</p>

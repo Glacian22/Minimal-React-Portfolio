@@ -6,11 +6,11 @@ import './style.css'
 
 export default function Footer (props) {
   const arr = [
-    <div className='w3-animate-left'><a href='https://www.linkedin.com/in/abram-thau/' target='_blank' rel='noopener noreferrer'>
+    <div key='0' className='w3-animate-left'><a href='https://www.linkedin.com/in/abram-thau/' target='_blank' rel='noopener noreferrer'>
       <img className='ind-icon' alt='linked-in' src={linkedin} /></a></div>,
-    <div className='w3-animate-left'><a href='https://github.com/Glacian22/' target='_blank' rel='noopener noreferrer'>
+    <div key='1' className='w3-animate-left'><a href='https://github.com/Glacian22/' target='_blank' rel='noopener noreferrer'>
       <img className='ind-icon' alt='github' src={github} /></a></div>,
-    <div className='w3-animate-left'><a href='mailto:glacian22@gmail.com' target='_blank' rel='noopener noreferrer'>
+    <div key='2' className='w3-animate-left'><a href='mailto:glacian22@gmail.com' target='_blank' rel='noopener noreferrer'>
       <img className='ind-icon email' alt='email' src={envelope} /></a></div>
   ]
   const [elements, setElements] = useState([])

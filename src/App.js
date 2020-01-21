@@ -25,7 +25,7 @@ function App () {
             <Route path='/about' exact render={About} />
             <Route path='/portfolio' exact render={Portfolio} />
             <Route path='/technology' exact render={Tech} />
-            <Route path='/contact' exact render={Contact} />
+            <Route path='/contact' exact component={Contact} />
             <Redirect to='/about' />
           </Switch>
         </Content>

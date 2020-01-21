@@ -65,9 +65,7 @@ export default function Portfolio (props) {
           <div>
             <img src={watDis} alt='Wat Dis' />
             <div className='card-title'>Wat Dis</div>
-            <p> Wat Dis?
-              <br />
-              Wat Dis? - frontend web app for identifying and elaborating on the contents of
+            <p> Frontend web app for identifying and elaborating on the contents of
                 images. Uses Google Cloud Vision and Wikipedia APIs</p>
           </div>
         </a>
