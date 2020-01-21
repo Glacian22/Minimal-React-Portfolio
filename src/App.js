@@ -26,7 +26,7 @@ function App () {
             <Route path='/Minimal-React-Portfolio/portfolio' exact render={Portfolio} />
             <Route path='/Minimal-React-Portfolio/technology' exact render={Tech} />
             <Route path='/Minimal-React-Portfolio/contact' exact component={Contact} />
-            <Redirect to='/Minimal-React-Portfolio/about' />
+            <Redirect to='/about' />
           </Switch>
         </Content>
       </div>
