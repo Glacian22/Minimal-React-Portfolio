@@ -10,7 +10,7 @@ export default function About (props) {
         <p><bdi className='about-headers'>Occupation:</bdi> Software Developer</p>
         <p><bdi className='about-headers'>Disposition:</bdi> Curious/Hungry</p>
         <p><bdi className='about-headers'>Background: </bdi>
-           I've been writing code in one form or another since I was 12. These days I
+           I've been writing code in one form or another since I was 14. These days I
           specialize in full-stack development, creating websites, desktop and mobile applications,
           and assorted other projects. I enjoy tackling tough problems, whether it's with an existing
           code base or starting from scratch, familiar tech or something brand new. Just keep me full of

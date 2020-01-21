@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import nodemailer from 'nodemailer'
+import mailer from 'nodemailer'
 import './style.css'
 
 export default function Contact (props) {
@@ -17,8 +17,9 @@ export default function Contact (props) {
       <form id='contact-form' onSubmit={handleSubmit}>
         <label>
           Contact
-          <textarea id='name' value={name} onChange={(event) => setName(event.target.value)} />
-          <textarea id='email' value={email} onChange={(event) => setEmail(event.target.value)} />
+          <input type='text' id='name' value={name} onChange={(event) => setName(event.target.value)} />
+          <input type='text' id='email' value={email} onChange={(event) => setEmail(event.target.value)} />
+          <br />
           <textarea id='message' value={message} onChange={(event) => setMessage(event.target.value)} />
           <br />
         </label>
