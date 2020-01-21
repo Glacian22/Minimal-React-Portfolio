@@ -8,6 +8,7 @@ export default function Contact (props) {
 
   let handleSubmit = event => {
     event.preventDefault()
+    console.log(event.target['name'].value)
   }
 
   return (
