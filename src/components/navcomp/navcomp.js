@@ -4,7 +4,7 @@ import './style.css'
 
 export default function NavComp (props) {
   return (
-    <NavLink to={`/${props.destination}`} className='w3-animate-left' activeClassName='active'>
+    <NavLink to={`/Minimal-React-Portfolio/${props.destination}`} className='w3-animate-left' activeClassName='active'>
       {props.destination}
     </NavLink>
   )

@@ -15,10 +15,10 @@ function App () {
     <BrowserRouter>
       <div className='App'>
         <Nav>
-          <NavComp exact destination='Minimal-React-Portfolio/about' />
-          <NavComp destination='Minimal-React-Portfolio/portfolio' />
-          <NavComp destination='Minimal-React-Portfolio/technology' />
-          <NavComp destination='Minimal-React-Portfolio/contact' />
+          <NavComp exact destination='about' />
+          <NavComp destination='portfolio' />
+          <NavComp destination='technology' />
+          <NavComp destination='contact' />
         </Nav>
         <Content>
           <Switch>
