@@ -10,7 +10,7 @@ export default function Contact (props) {
   let handleSubmit = event => {
     event.preventDefault()
     let mailKey = process.env.REACT_APP_EMAILJS_KEY
-    // console.log(event.target['name'].value)
+    console.log(event.target['name'].value)
     // console.log(mailKey)
     console.log(`process: ${process.env}`)
     emailjs.sendForm('portfolio', 'contact_form', event.target, mailKey)
