@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import mailer from 'nodemailer'
+import nodemailer from 'nodemailer'
 import './style.css'
 
 export default function Contact (props) {
