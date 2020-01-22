@@ -12,7 +12,7 @@ import './App.css'
 
 function App () {
   return (
-    <HashRouter basename={'/Minimal-React-Portfolio'}>
+    <HashRouter >
       <div className='App'>
         <Nav>
           <NavComp exact destination='about' />
