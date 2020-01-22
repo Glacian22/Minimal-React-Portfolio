@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from './components/nav/nav'
 import NavComp from './components/navcomp/navcomp'
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
+import { BrowserRouter, HashRouter, Route, Switch, Redirect } from 'react-router-dom'
 import About from './components/views/about/about'
 import Portfolio from './components/views/portfolio/portfolio'
 import Tech from './components/views/technology/tech'
@@ -12,7 +12,7 @@ import './App.css'
 
 function App () {
   return (
-    <BrowserRouter basename={'/Minimal-React-Portfolio'}>
+    <HashRouter basename={'/Minimal-React-Portfolio'}>
       <div className='App'>
         <Nav>
           <NavComp exact destination='about' />
@@ -31,7 +31,7 @@ function App () {
         </Content>
       </div>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
