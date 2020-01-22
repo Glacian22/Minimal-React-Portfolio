@@ -12,7 +12,7 @@ import './App.css'
 
 function App () {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={'/Minimal-React-Portfolio'}>
       <div className='App'>
         <Nav>
           <NavComp exact destination='about' />
