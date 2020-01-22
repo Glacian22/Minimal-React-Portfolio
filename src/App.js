@@ -22,7 +22,7 @@ function App () {
         </Nav>
         <Content>
           <Switch>
-            <Route path={`${process.env.PUBLIC_URL}/about`} exact render={About} />
+            <Route path='/about' exact render={About} />
             <Route path='/portfolio' exact render={Portfolio} />
             <Route path='/technology' exact render={Tech} />
             <Route path='/contact' exact component={Contact} />
