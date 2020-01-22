@@ -47,7 +47,7 @@ ul {
   }
 }
 
-@media only screen and (max-height: 780px) {
+@media only screen and (max-height: 740px) {
   #tech {
     width: 90%;
   }
