@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Minimal-React-Portfolio/static/css/main.1d3c6820.chunk.css",
-    "main.js": "/Minimal-React-Portfolio/static/js/main.9fa3111b.chunk.js",
-    "main.js.map": "/Minimal-React-Portfolio/static/js/main.9fa3111b.chunk.js.map",
+    "main.css": "/Minimal-React-Portfolio/static/css/main.3d77e368.chunk.css",
+    "main.js": "/Minimal-React-Portfolio/static/js/main.ca0b5816.chunk.js",
+    "main.js.map": "/Minimal-React-Portfolio/static/js/main.ca0b5816.chunk.js.map",
     "runtime-main.js": "/Minimal-React-Portfolio/static/js/runtime-main.00f3691c.js",
     "runtime-main.js.map": "/Minimal-React-Portfolio/static/js/runtime-main.00f3691c.js.map",
     "static/css/2.3c1ddb0a.chunk.css": "/Minimal-React-Portfolio/static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.ae7e7ce9.chunk.js": "/Minimal-React-Portfolio/static/js/2.ae7e7ce9.chunk.js",
-    "static/js/2.ae7e7ce9.chunk.js.map": "/Minimal-React-Portfolio/static/js/2.ae7e7ce9.chunk.js.map",
+    "static/js/2.795ed998.chunk.js": "/Minimal-React-Portfolio/static/js/2.795ed998.chunk.js",
+    "static/js/2.795ed998.chunk.js.map": "/Minimal-React-Portfolio/static/js/2.795ed998.chunk.js.map",
     "index.html": "/Minimal-React-Portfolio/index.html",
-    "precache-manifest.44b8f9f1c6a5175c74df390bc916907b.js": "/Minimal-React-Portfolio/precache-manifest.44b8f9f1c6a5175c74df390bc916907b.js",
+    "precache-manifest.1b95b2e81df85617f7a9817b74232835.js": "/Minimal-React-Portfolio/precache-manifest.1b95b2e81df85617f7a9817b74232835.js",
     "service-worker.js": "/Minimal-React-Portfolio/service-worker.js",
     "static/css/2.3c1ddb0a.chunk.css.map": "/Minimal-React-Portfolio/static/css/2.3c1ddb0a.chunk.css.map",
-    "static/css/main.1d3c6820.chunk.css.map": "/Minimal-React-Portfolio/static/css/main.1d3c6820.chunk.css.map",
-    "static/js/2.ae7e7ce9.chunk.js.LICENSE": "/Minimal-React-Portfolio/static/js/2.ae7e7ce9.chunk.js.LICENSE",
+    "static/css/main.3d77e368.chunk.css.map": "/Minimal-React-Portfolio/static/css/main.3d77e368.chunk.css.map",
+    "static/js/2.795ed998.chunk.js.LICENSE": "/Minimal-React-Portfolio/static/js/2.795ed998.chunk.js.LICENSE",
     "static/media/WatDis.png": "/Minimal-React-Portfolio/static/media/WatDis.172901b2.png",
     "static/media/blobber.jpg": "/Minimal-React-Portfolio/static/media/blobber.6c5cf54b.jpg",
     "static/media/github.png": "/Minimal-React-Portfolio/static/media/github.e6e1f167.png",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.00f3691c.js",
     "static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.ae7e7ce9.chunk.js",
-    "static/css/main.1d3c6820.chunk.css",
-    "static/js/main.9fa3111b.chunk.js"
+    "static/js/2.795ed998.chunk.js",
+    "static/css/main.3d77e368.chunk.css",
+    "static/js/main.ca0b5816.chunk.js"
   ]
 }
