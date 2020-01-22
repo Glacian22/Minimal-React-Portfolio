@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from 'react-responsive-carousel'
 import inTheirShoesFront from '../../../images/portfolio/lobby.jpg'
@@ -32,15 +31,15 @@ export default function Portfolio (props) {
             </p>
           </div>
         </a>
-        <Link className='folioCard' to='about'>
+        <a className='folioCard' href='https://github.com/Glacian22/Minimal-React-Portfolio' target='blank'>
           <div>
             <img src={thisPortfolio} alt='this site' />
             <div className='card-title'>This Portfolio</div>
-            <p> This portfolio site was designed and built by me, using React with custom components
+            <p> This portfolio site was designed and built using React with custom components
               and leveraging CSS3 grid.
             </p>
           </div>
-        </Link>
+        </a>
         <a className='folioCard' href='https://github.com/yomyyo/yelling-game' target='blank'>
           <div>
             <img src={blobber} alt='Blobber Royale' />
