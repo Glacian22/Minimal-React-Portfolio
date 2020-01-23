@@ -22,7 +22,7 @@ function App () {
         </Nav>
         <Content>
           <Switch>
-            <Route path='/about' exact render={About} />
+            <Route path='/about' exact component={About} />
             <Route path='/portfolio' exact render={Portfolio} />
             <Route path='/technology' exact render={Tech} />
             <Route path='/contact' exact component={Contact} />

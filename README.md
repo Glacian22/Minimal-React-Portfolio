@@ -6,7 +6,7 @@ A simple, clean personal portfolio built using React.
 ## Bits and Pieces
 * Bootstrapped with Create-React-App
 * Layed out with CSS3 Grid
-* Completely functional components with state added via hooks
+* Mix of class and functional components with state added via hooks
 
 ## Todo
 * More glow effects!
