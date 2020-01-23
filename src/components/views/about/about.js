@@ -14,17 +14,17 @@ export default class About extends React.Component {
     species: 'Human',
     occ: 'Software Developer',
     disp: 'Curious/Hungry',
-    background: `I've been writing code in one form or another since I was 14. These days I
-    specialize in full-stack development, creating websites, desktop and mobile applications,
-    and assorted other projects. I enjoy tackling tough problems, whether it's with an existing
-    code base or starting from scratch, familiar tech or something brand new. Just keep me full of
-    snacks and let's go!`
+    background: `I've been a writer, inventor, and entrepeneur, but these days I
+    specialize in full-stack development. You'll find me creating websites, desktop and mobile applications,
+    and assorted other projects. I enjoy tackling tough problems, whether it's
+    with an existing code base or starting from scratch, familiar tech or something brand new.
+    Just keep me full of snacks and point me at a goal.`
   }
 
   componentDidMount (){
     let count = 1
     for (const key in this.text) {
-      setTimeout(() => this.showText(key), count * 1000)
+      setTimeout(() => this.showText(key), count * 1300)
       count++
     }
   }
@@ -33,7 +33,7 @@ export default class About extends React.Component {
     let count = 0
     let speed = this.text[key].length < 30 ? 50 : 1
     let timer = setInterval(() => {
-      this.setState(() => {return {...this.state, [key]: this.text[key].substr(0, count)}})
+      this.setState({[key]: this.text[key].substr(0, count)})
       count++
       if (count > this.text[key].length) {
         clearInterval(timer)
