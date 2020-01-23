@@ -1,9 +1,15 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import './style.css'
 
-export default function About (props) {
-  const [bio, setBio] = useState({})
-  const text = {
+export default class About extends React.Component {
+  state = {
+    name: '',
+    species: '',
+    occ: '',
+    disp: '',
+    background: ''
+  }
+  text = {
     name: 'Abram Thau',
     species: 'Human',
     occ: 'Software Developer',
@@ -15,36 +21,38 @@ export default function About (props) {
     snacks and let's go!`
   }
 
-  useEffect(() => {
+  componentDidMount (){
     let count = 1
-    for (const key in text) {
-      setTimeout(() => showText(key), count * 1000)
+    for (const key in this.text) {
+      setTimeout(() => this.showText(key), count * 1000)
       count++
     }
-  }, [])
+  }
 
-  let showText = key => {
+  showText = (key) => {
     let count = 0
-    let speed = text[key].length < 30 ? 50 : 1
+    let speed = this.text[key].length < 30 ? 50 : 1
     let timer = setInterval(() => {
-      setBio(() => { return { ...bio, [key]: text[key].substr(0, count) } })
+      this.setState(() => {return {...this.state, [key]: this.text[key].substr(0, count)}})
       count++
-      if (count > text[key].length) {
+      if (count > this.text[key].length) {
         clearInterval(timer)
       }
     }, speed)
   }
 
-  return (
-    <div className='content' id='about'>
-      <div>
-        <p><bdi className='about-headers'>Name:</bdi> {bio.name}</p>
-        <p><bdi className='about-headers'>Species:</bdi> {bio.species}</p>
-        <p><bdi className='about-headers'>Occupation:</bdi> {bio.occ}</p>
-        <p><bdi className='about-headers'>Disposition:</bdi> {bio.disp}</p>
-        <p><bdi className='about-headers'>Background: </bdi> {bio.background}
-        </p>
+  render() {
+    return (
+      <div className='content' id='about'>
+        <div>
+          <p><bdi className='about-headers'>Name:</bdi> {this.state.name}</p>
+          <p><bdi className='about-headers'>Species:</bdi> {this.state.species}</p>
+          <p><bdi className='about-headers'>Occupation:</bdi> {this.state.occ}</p>
+          <p><bdi className='about-headers'>Disposition:</bdi> {this.state.disp}</p>
+          <p><bdi className='about-headers'>Background: </bdi> {this.state.background}
+          </p>
+        </div>
       </div>
-    </div>
-  )
+    )
+  }
 }
