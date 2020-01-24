@@ -50,9 +50,16 @@ ul {
 @media only screen and (max-height: 740px) {
   #tech {
     width: 90%;
+    animation: animatetechsmall 1s
   }
   #tech .slide {
     height: 250px;
     width: 400px;
   }
+}
+
+
+@keyframes animatetechsmall{
+  from{opacity:0} 
+  to{opacity:1}
 }

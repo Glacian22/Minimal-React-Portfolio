@@ -29,9 +29,15 @@
 
 @media only screen and (max-width: 780px) {
   #portfolio {
-    width: auto
+    width: auto;
+    animation: animatefoliosmall 1s
   }
   .folioCard div{
     width: 250px;
   }
+}
+
+@keyframes animatefoliosmall{
+  from{opacity:0} 
+  to{opacity:1}
 }
