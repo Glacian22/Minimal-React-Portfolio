@@ -1,4 +1,6 @@
 #foot {
+  position: relative;
+  margin-left: calc(50vw - 100px);
   align-content: center;
   width: 200px;
   display: inline-grid;
@@ -8,8 +10,8 @@
 #foot-wrap {
   margin: 0 auto 0 auto;
   width: 200px;
-  position: relative;
-  bottom: 0px
+  position: absolute;
+  bottom: 5px
 }
 
 .ind-icon {
