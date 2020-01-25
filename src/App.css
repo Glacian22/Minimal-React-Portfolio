@@ -11,3 +11,8 @@
     width: 95vw
   }
 }
+@media only screen and (max-height: 780px) {
+  .App {
+    margin-top: 5vw
+  }
+}
