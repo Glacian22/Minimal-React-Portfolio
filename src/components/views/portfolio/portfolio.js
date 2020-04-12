@@ -35,8 +35,7 @@ export default function Portfolio (props) {
           <div>
             <img src={thisPortfolio} alt='this site' />
             <div className='card-title'>This Portfolio</div>
-            <p> This portfolio site was designed and built using React with custom components
-              and leveraging CSS3 grid.
+            <p> This portfolio site was designed and built using React, leveraging CSS3 grid. Installable as a Progressive Web App, give it a try!
             </p>
           </div>
         </a>
