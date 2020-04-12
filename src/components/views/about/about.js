@@ -31,7 +31,8 @@ export default class About extends React.Component {
 
   showText = (key) => {
     let count = 0
-    let speed = this.text[key].length < 30 ? 50 : 1
+    // let speed = this.text[key].length < 30 ? 50 : 1
+    const speed = 50;
     let timer = setInterval(() => {
       this.setState({[key]: this.text[key].substr(0, count)})
       count++

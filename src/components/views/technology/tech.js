@@ -11,7 +11,7 @@ export default function Tech (props) {
         <div className='lists'>
           <h3>Front-End</h3>
           <ul>
-            <li>Javascript ES6+</li>
+            <li>Javascript ES6+/Typescript</li>
             <li>React</li>
             <li>HTML5</li>
             <li>CSS3</li>
@@ -24,7 +24,6 @@ export default function Tech (props) {
           <ul>
             <li>Node</li>
             <li>Express</li>
-            <li>Babel</li>
             <li>Mongoose</li>
             <li>Sequelize</li>
           </ul>
@@ -34,18 +33,26 @@ export default function Tech (props) {
           <ul>
             <li>MongoDB</li>
             <li>MySQL</li>
+            <li>IndexedDb</li>
             <li>Firebase</li>
             <li>Redis</li>
           </ul>
         </div>
         <div className='lists'>
-          <h3>Assorted</h3>
+          <h3>Methodologies</h3>
           <ul>
             <li>RESTful APIs</li>
-            <li>OOP</li>
-            <li>TDD</li>
+            <li>Object Oriented Programming</li>
+            <li>Test Driven Development</li>
             <li>Agile Development</li>
-            <li>Realtime Communication</li>
+          </ul>
+        </div>
+        <div className='lists'>
+          <h3>Assorted Tech</h3>
+          <ul>
+            <li>Babel</li>
+            <li>Webpack</li>
+            <li>Progressive Web Applications</li>
           </ul>
         </div>
       </Carousel>
