@@ -1,13 +1,35 @@
 import React from 'react'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
-import { Carousel } from 'react-responsive-carousel'
+// import { Carousel } from 'react-responsive-carousel'
+import ReactWordcloud from 'react-wordcloud'
 import './style.css'
+import words from './words'
 
-export default function Tech (props) {
+export default function Tech(props) {
+  const options = {
+    colors: ['#ffffff', '#535353', '#8f8f8f'],
+    enableTooltip: true,
+    deterministic: false,
+    fontFamily: 'impact',
+    fontSizes: [20, 60],
+    fontStyle: 'normal',
+    fontWeight: 'normal',
+    padding: 1,
+    rotations: 1,
+    rotationAngles: [0, 90],
+    scale: 'sqrt',
+    spiral: 'archimedean',
+    transitionDuration: 1000,
+  };
+
   return (
     <div className='content' id='tech'>
       <p>Some of the technologies I use:</p>
-      <Carousel showThumbs={false} showStatus={false} infiniteLoop>
+      <ReactWordcloud
+        words={words}
+        options={options}
+      />
+      {/* <Carousel showThumbs={false} showStatus={false} infiniteLoop>
         <div className='lists'>
           <h3>Front-End</h3>
           <ul>
@@ -55,7 +77,7 @@ export default function Tech (props) {
             <li>Progressive Web Applications</li>
           </ul>
         </div>
-      </Carousel>
+      </Carousel> */}
     </div>
   )
 }
