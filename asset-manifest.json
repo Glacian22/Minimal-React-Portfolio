@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Minimal-React-Portfolio/static/css/main.a8a21812.chunk.css",
-    "main.js": "/Minimal-React-Portfolio/static/js/main.6764ea9f.chunk.js",
-    "main.js.map": "/Minimal-React-Portfolio/static/js/main.6764ea9f.chunk.js.map",
-    "runtime-main.js": "/Minimal-React-Portfolio/static/js/runtime-main.00f3691c.js",
-    "runtime-main.js.map": "/Minimal-React-Portfolio/static/js/runtime-main.00f3691c.js.map",
-    "static/css/2.3c1ddb0a.chunk.css": "/Minimal-React-Portfolio/static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.e27eb3ad.chunk.js": "/Minimal-React-Portfolio/static/js/2.e27eb3ad.chunk.js",
-    "static/js/2.e27eb3ad.chunk.js.map": "/Minimal-React-Portfolio/static/js/2.e27eb3ad.chunk.js.map",
+    "main.css": "/Minimal-React-Portfolio/static/css/main.a0ac66c1.chunk.css",
+    "main.js": "/Minimal-React-Portfolio/static/js/main.19afa678.chunk.js",
+    "main.js.map": "/Minimal-React-Portfolio/static/js/main.19afa678.chunk.js.map",
+    "runtime-main.js": "/Minimal-React-Portfolio/static/js/runtime-main.47c012e2.js",
+    "runtime-main.js.map": "/Minimal-React-Portfolio/static/js/runtime-main.47c012e2.js.map",
+    "static/css/2.b40ce595.chunk.css": "/Minimal-React-Portfolio/static/css/2.b40ce595.chunk.css",
+    "static/js/2.148d6502.chunk.js": "/Minimal-React-Portfolio/static/js/2.148d6502.chunk.js",
+    "static/js/2.148d6502.chunk.js.map": "/Minimal-React-Portfolio/static/js/2.148d6502.chunk.js.map",
     "index.html": "/Minimal-React-Portfolio/index.html",
-    "precache-manifest.ff78dd5f8a18e1c061f43e17ceab1665.js": "/Minimal-React-Portfolio/precache-manifest.ff78dd5f8a18e1c061f43e17ceab1665.js",
+    "precache-manifest.32833039bcbc1b2f246322dc34b56f64.js": "/Minimal-React-Portfolio/precache-manifest.32833039bcbc1b2f246322dc34b56f64.js",
     "service-worker.js": "/Minimal-React-Portfolio/service-worker.js",
-    "static/css/2.3c1ddb0a.chunk.css.map": "/Minimal-React-Portfolio/static/css/2.3c1ddb0a.chunk.css.map",
-    "static/css/main.a8a21812.chunk.css.map": "/Minimal-React-Portfolio/static/css/main.a8a21812.chunk.css.map",
-    "static/js/2.e27eb3ad.chunk.js.LICENSE": "/Minimal-React-Portfolio/static/js/2.e27eb3ad.chunk.js.LICENSE",
+    "static/css/2.b40ce595.chunk.css.map": "/Minimal-React-Portfolio/static/css/2.b40ce595.chunk.css.map",
+    "static/css/main.a0ac66c1.chunk.css.map": "/Minimal-React-Portfolio/static/css/main.a0ac66c1.chunk.css.map",
+    "static/js/2.148d6502.chunk.js.LICENSE.txt": "/Minimal-React-Portfolio/static/js/2.148d6502.chunk.js.LICENSE.txt",
     "static/media/WatDis.png": "/Minimal-React-Portfolio/static/media/WatDis.172901b2.png",
     "static/media/blobber.jpg": "/Minimal-React-Portfolio/static/media/blobber.6c5cf54b.jpg",
     "static/media/github.png": "/Minimal-React-Portfolio/static/media/github.e6e1f167.png",
@@ -22,10 +22,10 @@
     "static/media/squares.gif": "/Minimal-React-Portfolio/static/media/squares.976fcf56.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.00f3691c.js",
-    "static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.e27eb3ad.chunk.js",
-    "static/css/main.a8a21812.chunk.css",
-    "static/js/main.6764ea9f.chunk.js"
+    "static/js/runtime-main.47c012e2.js",
+    "static/css/2.b40ce595.chunk.css",
+    "static/js/2.148d6502.chunk.js",
+    "static/css/main.a0ac66c1.chunk.css",
+    "static/js/main.19afa678.chunk.js"
   ]
 }
