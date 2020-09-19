@@ -80,15 +80,15 @@ export default [
     value: 35,
   },
   {
-    text: 'Object Oriented Programming',
+    text: 'OOP',
     value: 33,
   },
   {
-    text: 'Test Driven Development',
+    text: 'TDD',
     value: 41,
   },
   {
-    text: 'Agile Development',
+    text: 'Agile',
     value: 45,
   },
   {
@@ -100,7 +100,7 @@ export default [
     value: 30,
   },
   {
-    text: 'Progressive Web Apps',
+    text: 'PWAs',
     value: 25,
   },
   {
@@ -126,5 +126,17 @@ export default [
   {
     text: 'AWS',
     value: 24,
+  },
+  {
+    text: 'CI/CD',
+    value: 71,
+  },
+  {
+    text: 'Prettier',
+    value: 24,
+  },
+  {
+    text: 'Gitlab',
+    value: 30,
   },
 ];

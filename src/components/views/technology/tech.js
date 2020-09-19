@@ -8,23 +8,16 @@ import words from './words'
 export default function Tech(props) {
   const options = {
     colors: ['#ffffff', '#535353', '#8f8f8f'],
-    enableTooltip: true,
-    deterministic: false,
+    enableOptimizations: true,
     fontFamily: 'impact',
     fontSizes: [20, 60],
-    fontStyle: 'normal',
-    fontWeight: 'normal',
-    padding: 1,
     rotations: 1,
     rotationAngles: [0, 90],
-    scale: 'sqrt',
-    spiral: 'archimedean',
-    transitionDuration: 1000,
   };
 
   return (
     <div className='content' id='tech'>
-      <p>Some of the technologies I use:</p>
+      <p>Some technologies and strategies I use:</p>
       <ReactWordcloud
         words={words}
         options={options}
