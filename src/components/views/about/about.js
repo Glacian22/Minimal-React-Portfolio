@@ -13,7 +13,7 @@ export default class About extends React.Component {
     name: 'Abram Thau',
     species: 'Human',
     occ: 'Software Developer',
-    disp: 'Curious/Hungry',
+    disp: 'Curious/Snacky',
     background: `I've been a writer, inventor, and entrepeneur, but these days I
     specialize in full-stack development. You'll find me creating websites, desktop and mobile applications,
     and assorted other projects. I enjoy tackling tough problems, whether it's
