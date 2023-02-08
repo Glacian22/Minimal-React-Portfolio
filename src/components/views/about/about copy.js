@@ -34,12 +34,17 @@ let About = () => {
           return dTxt;
         }
         else {
-          return {...dTxt, }
+          return {...dTxt, [key]: text[key].substr(0, dTxt[key].length)}
         }
       })
 
       // Logic to decide if to call showText again, ie more text to render
       // setTimeOut showText()
+      if (newRow !== -1){
+        setTimeout(() => {
+          showText(newRow)
+        }, 5)
+      }
     }
       
     showText()
