@@ -9,12 +9,8 @@ let About = () => {
     ['name', 'Abram Thau'],
     ['species', 'Human'],
     ['occ', 'Software Developer'],
-    ['disp', 'Curious/Snacky'],
-    ['background', `I've been a writer, inventor, and entrepeneur, but these days I
-    specialize in full-stack development. You'll find me creating websites, desktop and mobile applications,
-    and assorted other projects. I enjoy tackling tough problems, whether it's
-    with an existing code base or starting from scratch, familiar tech or something brand new.
-    Just keep me full of snacks and point me at a goal.`]
+    ['disp', 'Curious'],
+    ['background', `Fullstack Programmer/Writer, specializing in JS, Typescript, React, Node, Relational and Nonrelational DBs, DevOps, CI/CD pipelines, and most importantly thoughtfully written maintainable code paired solid automated testing strategies.`]
   ]
 
   // new algo: 
@@ -25,6 +21,7 @@ let About = () => {
     const showText = (row = 0) => { 
       const key = text[row][0];
       let newRow = row;
+      let delay = 10;
 
       setDispText(dTxt => {
         // if done with this row, don't update state and check if there are more rows. If so, increment row if more rows available, or set to -1 to indicate all done.
@@ -34,6 +31,7 @@ let About = () => {
         if (dTxt[key].length === text[row][1].length) {
           console.log('next row')
           newRow = row < text.length - 1 ? row + 1 : -1;
+          delay = 1000;
           return dTxt;
         }
         else {
@@ -47,11 +45,11 @@ let About = () => {
       if (newRow !== -1){
         setTimeout(() => {
           showText(newRow)
-        }, 50)
+        }, delay)
       }
     }
       
-    showText()
+    setTimeout(() => showText(), 1250)
   }, [])
 
 
