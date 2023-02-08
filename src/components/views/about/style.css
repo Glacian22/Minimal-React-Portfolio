@@ -3,6 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   position:relative;
+  font-weight: 700;
   animation:animateabout 1s
 }
   @keyframes animateabout{
@@ -11,7 +12,8 @@
 }
 
 .about-headers {
-  font-weight: bold;
+  font-weight: 900;
+  margin-right: .25rem
 }
 
 @media only screen and (max-width: 780px) {

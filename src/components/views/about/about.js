@@ -26,8 +26,6 @@ let About = () => {
       setDispText(dTxt => {
         // if done with this row, don't update state and check if there are more rows. If so, increment row if more rows available, or set to -1 to indicate all done.
         // else update state with additional char, run again
-        console.log(`Row: ${key}`)
-        console.log(dTxt[key].length, text[row][1].length)
         if (dTxt[key].length === text[row][1].length) {
           console.log('next row')
           newRow = row < text.length - 1 ? row + 1 : -1;
@@ -41,7 +39,6 @@ let About = () => {
       })
 
       // Logic to decide if to call showText again, ie more text to render
-      // setTimeOut showText()
       if (newRow !== -1){
         setTimeout(() => {
           showText(newRow)
@@ -56,11 +53,11 @@ let About = () => {
   return (
     <div className='content' id='about'>
       <div>
-        <p className='about-headers'>Name: {dispText.name}</p>
-        <p className='about-headers'>Species: {dispText.species}</p>
-        <p className='about-headers'>Occupation: {dispText.occ}</p>
-        <p className='about-headers'>Disposition: {dispText.disp}</p>
-        <p className='about-headers'>Background: {dispText.background}</p>
+        <p><span className='about-headers'>Name:</span> {dispText.name}</p>
+        <p><span className='about-headers'>Species:</span> {dispText.species}</p>
+        <p><span className='about-headers'>Occupation:</span> {dispText.occ}</p>
+        <p><span className='about-headers'>Disposition:</span> {dispText.disp}</p>
+        <p><span className='about-headers'>Background:</span> {dispText.background}</p>
       </div>
     </div>
   )
