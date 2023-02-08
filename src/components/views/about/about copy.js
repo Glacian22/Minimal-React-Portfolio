@@ -22,26 +22,26 @@ let About = () => {
   //  set time out to call funtion again if total not met
 
   useEffect = (() => {
-    // const totalChars = text.reduce((acc, val) => {
-    //   return acc + val[1].length
-    // }, 0)
-
-    // console.log(`${totalChars} total chars to print`)
-
     const showText = (row = 0) => { 
       const key = text[row][0];
-      let next = false;
+      let newRow;
+
       setDispText(dTxt => {
+        // if done with this row, don't update state and check if there are more rows. If so, increment row if more rows available, or set to -1 to indicate all done.
+        // else update state with additional char, run again
         if (dTxt[key].length === text[row][key].length) {
-          next = row < text.length - 1 ? true : false;
+          newRow = row < text.length - 1 ? row + 1 : -1;
           return dTxt;
         }
         else {
           return {...dTxt, }
         }
       })
-     }
-        
+
+      // Logic to decide if to call showText again, ie more text to render
+      // setTimeOut showText()
+    }
+      
     showText()
   }, [text])
 
@@ -49,11 +49,11 @@ let About = () => {
   return (
     <div className='content' id='about'>
       <div>
-        <p className='about-headers'>Name: {displayText.name}</p>
-        <p className='about-headers'>Species: {displayText.species}</p>
-        <p className='about-headers'>Occupation:{displayText.occ}</p>
-        <p className='about-headers'>Disposition: {displayText.disp}</p>
-        <p className='about-headers'>Background: {displayText.background}</p>
+        <p className='about-headers'>Name: {dispText.name}</p>
+        <p className='about-headers'>Species: {dispText.species}</p>
+        <p className='about-headers'>Occupation:{dispText.occ}</p>
+        <p className='about-headers'>Disposition: {dispText.disp}</p>
+        <p className='about-headers'>Background: {dispText.background}</p>
       </div>
     </div>
   )
