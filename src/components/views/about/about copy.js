@@ -3,9 +3,9 @@ import './style.css'
 
 let About = () => {
 
-  let [displayText, setDisplayText] = ({name:'', species:'', occ:'', disp:'', background:''})
+  let [dispText, setDispText] = ({name:'', species:'', occ:'', disp:'', background:''})
 
-  const text = new Map([
+  const text = [
     ['name', 'Abram Thau'],
     ['species', 'Human'],
     ['occ', 'Software Developer'],
@@ -15,20 +15,36 @@ let About = () => {
     and assorted other projects. I enjoy tackling tough problems, whether it's
     with an existing code base or starting from scratch, familiar tech or something brand new.
     Just keep me full of snacks and point me at a goal.`]
-  ])
+  ]
+
+  // new algo: 
+  //  update 1 letter per function call, 
+  //  set time out to call funtion again if total not met
 
   useEffect = (() => {
-    showText()
-  }, [])
+    // const totalChars = text.reduce((acc, val) => {
+    //   return acc + val[1].length
+    // }, 0)
 
-  const showText = () => {
-    text.forEach((key, str) => {
-      const speed = str.length < 30 ? 50 : 5;  
-      for (char of str) {
+    // console.log(`${totalChars} total chars to print`)
+
+    const showText = (row = 0) => { 
+      const key = text[row][0];
+      let next = false;
+      setDispText(dTxt => {
+        if (dTxt[key].length === text[row][key].length) {
+          next = row < text.length - 1 ? true : false;
+          return dTxt;
+        }
+        else {
+          return {...dTxt, }
+        }
+      })
+     }
         
-      }
-    })
-  }
+    showText()
+  }, [text])
+
 
   return (
     <div className='content' id='about'>
