@@ -3,7 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   position:relative;
-  font-weight: 700;
+  font-weight: 600;
   animation:animateabout 1s
 }
   @keyframes animateabout{

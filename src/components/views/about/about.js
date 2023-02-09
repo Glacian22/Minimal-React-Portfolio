@@ -10,7 +10,7 @@ let About = () => {
     ['species', 'Human'],
     ['occ', 'Software Developer'],
     ['disp', 'Curious'],
-    ['background', `Fullstack Programmer/Writer, specializing in JS, Typescript, React, Node, Relational and Nonrelational DBs, DevOps, CI/CD pipelines, and most importantly thoughtfully written maintainable code paired solid automated testing strategies.`]
+    ['background', `Fullstack Programmer/Writer, specializing in JS, Typescript, React, Node, Relational and Nonrelational DBs, DevOps, CI/CD pipelines, and most importantly thoughtfully written maintainable code paired solid testing.`]
   ]
 
   // new algo: 
@@ -21,19 +21,17 @@ let About = () => {
     const showText = (row = 0) => { 
       const key = text[row][0];
       let newRow = row;
-      let delay = 10;
+      let delay = 12;
 
       setDispText(dTxt => {
         // if done with this row, don't update state and check if there are more rows. If so, increment row if more rows available, or set to -1 to indicate all done.
         // else update state with additional char, run again
         if (dTxt[key].length === text[row][1].length) {
-          console.log('next row')
           newRow = row < text.length - 1 ? row + 1 : -1;
           delay = 1000;
           return dTxt;
         }
         else {
-          console.log('printing')
           return {...dTxt, [key]: text[row][1].substr(0, dTxt[key].length + 1)}
         }
       })
