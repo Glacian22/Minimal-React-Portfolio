@@ -13,7 +13,7 @@ let About = () => {
     ['background', `Fullstack Programmer/Writer, specializing in JS, Typescript, React, Node, Relational and Nonrelational DBs, DevOps, CI/CD pipelines, and most importantly thoughtfully written maintainable code paired solid testing.`]
   ]
 
-  // new algo: 
+  // new algorithm: 
   //  update 1 letter per function call, 
   //  set time out to call funtion again if total not met
 
